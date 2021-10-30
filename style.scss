@@ -21,6 +21,7 @@ header {
     padding: 0.2%;
     color: $negro;
     border-bottom: 1px solid $negro;
+    font-family: 'popins';
     nav {
         color: $negro;
         display: flex;
@@ -51,7 +52,6 @@ header {
         }
         .logo {
             width: auto;
-            font-size: 2em;
             img {
                 width: 21%;
             }
@@ -199,6 +199,8 @@ main {
         margin: auto;
         padding-top: 2%;
         form {
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
             background-color: white;
             width: 70%;
             height: 100%;
@@ -215,6 +217,10 @@ main {
                     margin-left: 2%;
                     border: none;
                     border-bottom: 1px solid $negro;
+                    font-weight: bold;
+                    &:focus {
+                        outline: none;
+                    }
                 }
             }
             .conteiner_input_enviar {
@@ -281,11 +287,12 @@ main {
     }
 }
 
-footer {
+.footer_index {
     background-color: $anaranjado;
     color: $negro;
     border-top: 1px solid $negro;
     height: 5vh;
+    font-family: 'popins';
     .footer_contenido {
         img {
             width: 5%;
@@ -299,6 +306,7 @@ footer {
 }
 
 .footer_login {
+    font-family: 'popins';
     background-color: $anaranjado_clarito;
     color: $negro;
     border-top: 1px solid $negro;
