@@ -110,9 +110,19 @@ header nav .rs ul li .iniciar-none {
 main {
   height: calc(100vh-15vh);
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 main .carousel {
+  width: 100%;
   border-bottom: 1px solid #0b0a09;
 }
 
@@ -123,9 +133,16 @@ main .carousel .d-block {
   height: 800px;
 }
 
-main section .mainSection {
+main .main_conteiner {
+  width: 70%;
   margin: auto;
-  width: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+main .main_conteiner .mainSection {
+  margin: auto;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -142,44 +159,88 @@ main section .mainSection {
           justify-content: flex-start;
 }
 
-main section .mainSection a {
+main .main_conteiner .mainSection a {
   width: 100%;
   text-align: start;
   color: #0b0a09;
   text-decoration: none;
 }
 
-main section .mainSection a:hover {
+main .main_conteiner .mainSection a:hover {
   text-decoration: underline;
 }
 
-main section .mainSection .card {
+main .main_conteiner .mainSection .card {
   margin-right: 3%;
   border-color: #0b0a09;
 }
 
-main section .mainSection .card img {
+main .main_conteiner .mainSection .card img {
   height: 180px;
   cursor: pointer;
 }
 
-main section .mainSection .card .card-body .card-text {
+main .main_conteiner .mainSection .card .card-body .card-text {
   height: 7vh;
 }
 
-main section .mainSection .card .card-body .btn {
+main .main_conteiner .mainSection .card .card-body .btn {
   margin: auto;
   background-color: #e65e5c;
   border-color: #0b0a09;
   text-align: center;
 }
 
-main section .mainSection .card .card-body .btn:hover {
+main .main_conteiner .mainSection .card .card-body .btn:hover {
   background-color: #0b0a09;
   color: #f1f3f2;
   -webkit-transition: 500ms;
   transition: 500ms;
   text-decoration: none;
+}
+
+main .publicidad {
+  width: auto;
+  border-left: 1px solid #0b0a09;
+}
+
+main .publicidad h3 {
+  margin-bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #e65e5c;
+  font-family: 'popins';
+  font-style: italic;
+  padding: 0;
+  border-bottom: 1px solid #0b0a09;
+}
+
+main .publicidad .card {
+  border: none;
+  position: relative;
+}
+
+main .publicidad .card .info-publicidad {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  color: #f1f3f2;
+  background-color: rgba(11, 10, 9, 0.3);
+  height: 100%;
+  width: 100%;
+}
+
+main .publicidad .card .info-publicidad p {
+  background-color: #0b0a09;
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+main .publicidad .card:hover .info-publicidad {
+  display: block;
 }
 
 .main_login {
