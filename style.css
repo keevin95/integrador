@@ -93,17 +93,12 @@ header nav .rs ul li a i:hover {
 }
 
 header nav .rs ul li:last-child {
-  margin-left: 5%;
   padding: 1%;
 }
 
 header nav .rs ul li:last-child:hover {
   border-bottom: 1px solid #0b0a09;
   text-decoration: none;
-}
-
-header nav .rs ul li .iniciar-none {
-  display: none;
 }
 
 /*-----------------------------------------MAIN------------------------------------------*/
@@ -133,6 +128,101 @@ main .carousel .d-block {
   height: 800px;
 }
 
+main .carousel .inicio_sesion {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 25%;
+  background-color: rgba(241, 243, 242, 0.5);
+  height: 55%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: 3%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1%;
+}
+
+main .carousel .inicio_sesion i {
+  font-size: 150px;
+}
+
+main .carousel .inicio_sesion form {
+  font-family: 'popins';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  height: 40%;
+}
+
+main .carousel .inicio_sesion form input {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: 5%;
+  border: none;
+  border-bottom: 1px solid #0b0a09;
+}
+
+main .carousel .inicio_sesion form input:focus-within {
+  outline: none;
+}
+
+main .carousel .inicio_sesion form .btn_iniciar_sesion {
+  width: 30%;
+  border: none;
+  background-color: #e65e5c;
+  text-transform: uppercase;
+  padding: 1%;
+  border-bottom: 1px solid #0b0a09;
+}
+
+main .carousel .inicio_sesion form .btn_iniciar_sesion:hover {
+  -webkit-box-shadow: 0 1px 15px 3px;
+          box-shadow: 0 1px 15px 3px;
+  border: 1px solid #0b0a09;
+}
+
+main .carousel .inicio_sesion p {
+  font-size: 11px;
+}
+
+main .carousel .inicio_sesion p a {
+  text-decoration: none;
+  color: #0b0a09;
+  width: auto;
+}
+
+main .carousel .inicio_sesion button {
+  width: 7%;
+}
+
+main .carousel .inicio_sesion button .cruz {
+  font-size: 25px;
+  width: 100%;
+  height: 100%;
+  background-color: #e65e5c;
+}
+
+main .carousel .inicio_sesion button:focus {
+  background-color: #0b0a09;
+}
+
 main .main_conteiner {
   width: 70%;
   margin: auto;
@@ -159,6 +249,14 @@ main .main_conteiner .mainSection {
           justify-content: flex-start;
 }
 
+main .main_conteiner .mainSection h3 {
+  width: 100%;
+}
+
+main .main_conteiner .mainSection h3 a {
+  width: auto;
+}
+
 main .main_conteiner .mainSection a {
   width: 100%;
   text-align: start;
@@ -170,18 +268,30 @@ main .main_conteiner .mainSection a:hover {
   text-decoration: underline;
 }
 
+main .main_conteiner .mainSection a h3 {
+  width: 100%;
+}
+
 main .main_conteiner .mainSection .card {
   margin-right: 3%;
   border-color: #0b0a09;
 }
 
 main .main_conteiner .mainSection .card img {
-  height: 180px;
+  height: 190px;
   cursor: pointer;
+}
+
+main .main_conteiner .mainSection .card .card-body h5 {
+  height: 6vh;
 }
 
 main .main_conteiner .mainSection .card .card-body .card-text {
   height: 7vh;
+}
+
+main .main_conteiner .mainSection .card .card-body .card-text p {
+  height: 100%;
 }
 
 main .main_conteiner .mainSection .card .card-body .btn {
@@ -197,6 +307,11 @@ main .main_conteiner .mainSection .card .card-body .btn:hover {
   -webkit-transition: 500ms;
   transition: 500ms;
   text-decoration: none;
+}
+
+main .main_conteiner .mainSection:last-child .card img {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 main .publicidad {
@@ -243,13 +358,13 @@ main .publicidad .card:hover .info-publicidad {
   display: block;
 }
 
-.main_login {
+.main_crearCuenta {
   margin-top: 0%;
   background-color: #f1f1f1;
   height: calc(100vh - 28vh);
 }
 
-.main_login .nav_login {
+.main_crearCuenta .nav_crearCuenta {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -269,25 +384,25 @@ main .publicidad .card:hover .info-publicidad {
   color: #f1f3f2;
 }
 
-.main_login .nav_login i {
+.main_crearCuenta .nav_crearCuenta i {
   margin-right: 5px;
   color: #f1f3f2;
 }
 
-.main_login .nav_login .registrate {
+.main_crearCuenta .nav_crearCuenta .registrate {
   margin-left: 20px;
   padding: 3px;
 }
 
-.main_login .nav_login .registrate span {
+.main_crearCuenta .nav_crearCuenta .registrate span {
   font-size: 1.5em;
 }
 
-.main_login .nav_login .registrate i {
+.main_crearCuenta .nav_crearCuenta .registrate i {
   font-size: 30px;
 }
 
-.main_login .nav_login a {
+.main_crearCuenta .nav_crearCuenta a {
   color: #f1f3f2;
   background-color: #e65e5c;
   text-decoration: none;
@@ -298,23 +413,22 @@ main .publicidad .card:hover .info-publicidad {
           box-shadow: 0 1px 15px 3px;
 }
 
-.main_login .nav_login a:hover {
+.main_crearCuenta .nav_crearCuenta a:hover {
   background-color: #ff6b68;
 }
 
-.main_login .conteiner_login {
-  height: 85%;
+.main_crearCuenta .conteiner_crearCuenta {
+  height: 90%;
   width: 70%;
   margin: auto;
-  padding-top: 2%;
 }
 
-.main_login .conteiner_login form {
+.main_crearCuenta .conteiner_crearCuenta form {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   background-color: white;
   width: 70%;
-  height: 100%;
+  height: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -330,11 +444,11 @@ main .publicidad .card:hover .info-publicidad {
           box-shadow: 1px 1px 10px 2px;
 }
 
-.main_login .conteiner_login form .conteiner_input {
+.main_crearCuenta .conteiner_crearCuenta form .conteiner_input {
   width: 30%;
 }
 
-.main_login .conteiner_login form .conteiner_input input {
+.main_crearCuenta .conteiner_crearCuenta form .conteiner_input input {
   width: 70%;
   margin-left: 2%;
   border: none;
@@ -342,11 +456,11 @@ main .publicidad .card:hover .info-publicidad {
   font-weight: bold;
 }
 
-.main_login .conteiner_login form .conteiner_input input:focus {
+.main_crearCuenta .conteiner_crearCuenta form .conteiner_input input:focus {
   outline: none;
 }
 
-.main_login .conteiner_login form .conteiner_input_enviar {
+.main_crearCuenta .conteiner_crearCuenta form .conteiner_input_enviar {
   height: 7vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -357,7 +471,7 @@ main .publicidad .card:hover .info-publicidad {
   width: 50%;
 }
 
-.main_login .conteiner_login form .conteiner_input_enviar #enviar {
+.main_crearCuenta .conteiner_crearCuenta form .conteiner_input_enviar #enviar {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   width: 30%;
@@ -368,26 +482,26 @@ main .publicidad .card:hover .info-publicidad {
   border: 1px solid #0b0a09;
 }
 
-.main_login .conteiner_login form .conteiner_input_enviar #enviar:hover {
+.main_crearCuenta .conteiner_crearCuenta form .conteiner_input_enviar #enviar:hover {
   background-color: #ff6b68;
 }
 
-.main_login .conteiner_login form .terminos_condiciones {
+.main_crearCuenta .conteiner_crearCuenta form .terminos_condiciones {
   width: 95%;
 }
 
-.main_login .conteiner_login form .terminos_condiciones a {
+.main_crearCuenta .conteiner_crearCuenta form .terminos_condiciones a {
   color: #e65e5c;
   text-transform: lowercase;
 }
 
-.main_login .conteiner_login form .terminos_condiciones label {
+.main_crearCuenta .conteiner_crearCuenta form .terminos_condiciones label {
   width: auto;
   font-size: 11px;
   vertical-align: middle;
 }
 
-.main_login .conteiner_login form .terminos_condiciones input {
+.main_crearCuenta .conteiner_crearCuenta form .terminos_condiciones input {
   margin: 0;
   vertical-align: middle;
   width: auto;
@@ -396,11 +510,11 @@ main .publicidad .card:hover .info-publicidad {
   margin-left: 5px;
 }
 
-.main_login .conteiner_login form .info {
+.main_crearCuenta .conteiner_crearCuenta form .info {
   width: 95%;
 }
 
-.main_login .conteiner_login form .info p {
+.main_crearCuenta .conteiner_crearCuenta form .info p {
   border-left: 2px solid #e65e5c;
   margin-top: 1%;
   padding-left: 2%;
@@ -409,7 +523,7 @@ main .publicidad .card:hover .info-publicidad {
   text-align: justify;
 }
 
-.main_login .conteiner_login .importante {
+.main_crearCuenta .conteiner_crearCuenta .importante {
   background-color: #e65e5c;
   width: 70%;
   margin: auto;
@@ -418,7 +532,7 @@ main .publicidad .card:hover .info-publicidad {
           box-shadow: 0 2px 3px 1px;
 }
 
-.main_login .conteiner_login .importante span {
+.main_crearCuenta .conteiner_crearCuenta .importante span {
   padding-left: 1%;
   color: #f1f3f2;
 }
@@ -441,6 +555,7 @@ main .publicidad .card:hover .info-publicidad {
   height: 100%;
 }
 
+.footer_crearCuenta,
 .footer_login {
   font-family: 'popins';
   background-color: #ff6b68;
@@ -461,6 +576,7 @@ main .publicidad .card:hover .info-publicidad {
           align-items: center;
 }
 
+.footer_crearCuenta .footer_contenido,
 .footer_login .footer_contenido {
   padding: 9px;
   display: -webkit-box;
@@ -475,20 +591,24 @@ main .publicidad .card:hover .info-publicidad {
   width: 100%;
 }
 
+.footer_crearCuenta .footer_contenido .footer_info li,
 .footer_login .footer_contenido .footer_info li {
   list-style: none;
 }
 
+.footer_crearCuenta .footer_contenido img,
 .footer_login .footer_contenido img {
   width: 6%;
 }
 
+.footer_crearCuenta p,
 .footer_login p {
   text-align: center;
   padding: 7px;
   height: 100%;
 }
 
+.footer_crearCuenta .copyright,
 .footer_login .copyright {
   background-color: #e65e5c;
   width: 100%;
@@ -496,6 +616,7 @@ main .publicidad .card:hover .info-publicidad {
   padding-top: 7px;
 }
 
+.footer_crearCuenta .copyright p,
 .footer_login .copyright p {
   text-align: center;
 }
