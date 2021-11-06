@@ -51,7 +51,7 @@ header nav .nav_sections ul li {
   padding: 1%;
 }
 
-header nav .nav_sections ul li:hover {
+header nav .nav_sections ul li a:hover {
   color: #0b0a09;
   cursor: pointer;
   border-bottom: 1px solid #0b0a09;
@@ -176,6 +176,7 @@ main .carousel .inicio_sesion form input {
   margin: 0 auto;
   margin-top: 5%;
   border: none;
+  text-align: center;
   border-bottom: 1px solid #0b0a09;
 }
 
@@ -609,7 +610,14 @@ main .main_conteiner .mainSection:last-child .card img {
     margin-bottom: 0;
   }
   header nav .nav_sections ul li a {
+    color: #0b0a09;
     width: auto;
+  }
+  header nav .nav_sections ul li a:hover {
+    border: none;
+  }
+  main {
+    height: calc(100vh -11vh);
   }
   main .carousel .d-block {
     height: 300px;
@@ -634,6 +642,7 @@ main .main_conteiner .mainSection:last-child .card img {
   }
   main .main_conteiner .mainSection .card .card-body h5 {
     height: 4vh;
+    font-size: 15px;
   }
   main .main_conteiner .mainSection .card .card-body .card-text {
     height: 4vh;
@@ -645,5 +654,32 @@ main .main_conteiner .mainSection:last-child .card img {
     margin-top: 5px;
     width: 50%;
   }
+  main .carousel .inicio_sesion {
+    width: 70%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  main .carousel .inicio_sesion i {
+    font-size: 50px;
+  }
+  main .carousel .inicio_sesion form {
+    margin: auto;
+    width: 50%;
+    height: auto;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .carousel .inicio_sesion form .btn_iniciar_sesion {
+    width: 70%;
+  }
+}
+
+.footer_index {
+  height: 3vh;
 }
 /*# sourceMappingURL=style.css.map */
