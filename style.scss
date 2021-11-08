@@ -451,6 +451,131 @@ main {
 
 /*----------------------------------MEDIA QUERIES--------------------------------------------------*/
 
+@media(max-width:1280px) {
+    header {
+        height: 13vh;
+        nav {
+            height: 100%;
+            .nav_sections {
+                font-size: 1em;
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    text-align: start;
+                    padding: 0;
+                    height: 100%;
+                    margin-bottom: 0;
+                    li {
+                        a {
+                            color: $negro;
+                            width: auto;
+                            &:hover {
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main {
+        height: calc(100vh -11vh);
+        .carousel {
+            .d-block {
+                height: 280px;
+            }
+        }
+        .main_conteiner {
+            .mainSection {
+                width: 100%;
+                margin: auto;
+                .card {
+                    margin-bottom: 1%;
+                    height: 25vh;
+                    width: 180px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    img {
+                        height: 50%;
+                    }
+                    .card-body {
+                        padding: 0;
+                        text-align: center;
+                        h5 {
+                            height: 4vh;
+                            font-size: 15px;
+                        }
+                        .card-text {
+                            height: 4vh;
+                            margin-bottom: 5px;
+                            font-size: 12px;
+                        }
+                        .btn {
+                            padding: 2px;
+                            margin-top: 5px;
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+        .carousel {
+            .inicio_sesion {
+                width: 70%;
+                justify-content: flex-end;
+                i {
+                    font-size: 50px;
+                }
+                form {
+                    margin: auto;
+                    width: 50%;
+                    height: auto;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    .btn_iniciar_sesion {
+                        width: 70%;
+                    }
+                }
+            }
+        }
+    }
+    .footer_index {
+        height: 3vh;
+    }
+    .main_crearCuenta {
+        height: calc(100vh - 23vh);
+        .nav_crearCuenta {
+            a {
+                width: 10%;
+            }
+        }
+        .conteiner_crearCuenta {
+            form {
+                margin-bottom: 0;
+                width: 100%;
+            }
+            .importante {
+                margin-top: 3%;
+            }
+        }
+    }
+    .footer_crearCuenta {
+        height: 15vh;
+        .footer_contenido {
+            .footer_info {
+                font-size: 1.3em;
+                ul {
+                    padding: 0;
+                }
+            }
+            img {
+                width: 13%;
+            }
+        }
+    }
+}
+
 @media(max-width:1024px) {
     header {
         nav {
@@ -539,8 +664,38 @@ main {
             }
         }
     }
-}
-
-.footer_index {
-    height: 3vh;
+    .footer_index {
+        height: 3vh;
+    }
+    .main_crearCuenta {
+        height: calc(100vh - 23vh);
+        .nav_crearCuenta {
+            a {
+                width: 10%;
+            }
+        }
+        .conteiner_crearCuenta {
+            form {
+                margin-bottom: 0;
+                width: 100%;
+            }
+            .importante {
+                margin-top: 3%;
+            }
+        }
+    }
+    .footer_crearCuenta {
+        height: 15vh;
+        .footer_contenido {
+            .footer_info {
+                font-size: 1.3em;
+                ul {
+                    padding: 0;
+                }
+            }
+            img {
+                width: 13%;
+            }
+        }
+    }
 }
