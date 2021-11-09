@@ -752,10 +752,13 @@ body .footer_login .copyright p {
     border: none;
   }
   body {
-    height: 100vh;
+    height: 157vh;
   }
   body .main_index {
-    height: calc(100vh -11vh);
+    height: calc(121vh - 12vh);
+  }
+  body .main_index .carousel {
+    height: 300px;
   }
   body .main_index .carousel .d-block {
     height: 300px;
@@ -818,29 +821,36 @@ body .footer_login .copyright p {
   .footer_index {
     height: 3vh;
   }
-  .main_crearCuenta {
-    height: calc(100vh - 23vh);
+  .body_crearcuenta {
+    height: 131vh;
   }
-  .main_crearCuenta .nav_crearCuenta a {
+  .body_crearcuenta .main_crearCuenta {
+    height: calc(100vh - 28vh);
+  }
+  .body_crearcuenta .main_crearCuenta .nav_crearCuenta a {
     width: 10%;
   }
-  .main_crearCuenta .conteiner_crearCuenta form {
+  .body_crearcuenta .main_crearCuenta .conteiner_crearCuenta {
+    margin-top: 30px;
+  }
+  .body_crearcuenta .main_crearCuenta .conteiner_crearCuenta form {
+    height: 80%;
     margin-bottom: 0;
     width: 100%;
   }
-  .main_crearCuenta .conteiner_crearCuenta .importante {
+  .body_crearcuenta .main_crearCuenta .conteiner_crearCuenta .importante {
     margin-top: 3%;
   }
-  .footer_crearCuenta {
+  .body_crearcuenta .footer_crearCuenta {
     height: 15vh;
   }
-  .footer_crearCuenta .footer_contenido .footer_info {
+  .body_crearcuenta .footer_crearCuenta .footer_contenido .footer_info {
     font-size: 1.3em;
   }
-  .footer_crearCuenta .footer_contenido .footer_info ul {
+  .body_crearcuenta .footer_crearCuenta .footer_contenido .footer_info ul {
     padding: 0;
   }
-  .footer_crearCuenta .footer_contenido img {
+  .body_crearcuenta .footer_crearCuenta .footer_contenido img {
     width: 13%;
   }
 }
