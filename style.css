@@ -102,8 +102,8 @@ header nav .rs ul li:last-child:hover {
 }
 
 /*-----------------------------------------MAIN------------------------------------------*/
-main {
-  height: calc(100vh-15vh);
+body .main_index {
+  height: calc(220vh - 13vh);
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -116,19 +116,19 @@ main {
       flex-wrap: wrap;
 }
 
-main .carousel {
+body .main_index .carousel {
   width: 100%;
-  border-bottom: 1px solid #0b0a09;
 }
 
-main .carousel .d-block {
+body .main_index .carousel .d-block {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   height: 450px;
+  border-bottom: 1px solid #0b0a09;
 }
 
-main .carousel .inicio_sesion {
+body .main_index .carousel .inicio_sesion {
   display: none;
   position: absolute;
   top: 0;
@@ -151,11 +151,11 @@ main .carousel .inicio_sesion {
   padding: 1%;
 }
 
-main .carousel .inicio_sesion i {
+body .main_index .carousel .inicio_sesion i {
   font-size: 120px;
 }
 
-main .carousel .inicio_sesion form {
+body .main_index .carousel .inicio_sesion form {
   font-family: 'popins';
   display: -webkit-box;
   display: -ms-flexbox;
@@ -170,7 +170,7 @@ main .carousel .inicio_sesion form {
   height: 40%;
 }
 
-main .carousel .inicio_sesion form input {
+body .main_index .carousel .inicio_sesion form input {
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -180,11 +180,11 @@ main .carousel .inicio_sesion form input {
   border-bottom: 1px solid #0b0a09;
 }
 
-main .carousel .inicio_sesion form input:focus-within {
+body .main_index .carousel .inicio_sesion form input:focus-within {
   outline: none;
 }
 
-main .carousel .inicio_sesion form .btn_iniciar_sesion {
+body .main_index .carousel .inicio_sesion form .btn_iniciar_sesion {
   width: 30%;
   border: none;
   background-color: #e65e5c;
@@ -193,39 +193,39 @@ main .carousel .inicio_sesion form .btn_iniciar_sesion {
   border-bottom: 1px solid #0b0a09;
 }
 
-main .carousel .inicio_sesion form .btn_iniciar_sesion:hover {
+body .main_index .carousel .inicio_sesion form .btn_iniciar_sesion:hover {
   -webkit-box-shadow: 0 1px 15px 3px;
           box-shadow: 0 1px 15px 3px;
   border: 1px solid #0b0a09;
 }
 
-main .carousel .inicio_sesion p {
+body .main_index .carousel .inicio_sesion p {
   margin-top: 1%;
   font-size: 11px;
 }
 
-main .carousel .inicio_sesion p a {
+body .main_index .carousel .inicio_sesion p a {
   text-decoration: none;
   color: #0b0a09;
   width: auto;
 }
 
-main .carousel .inicio_sesion button {
+body .main_index .carousel .inicio_sesion button {
   width: 7%;
 }
 
-main .carousel .inicio_sesion button .cruz {
+body .main_index .carousel .inicio_sesion button .cruz {
   font-size: 25px;
   width: 100%;
   height: 100%;
   background-color: #e65e5c;
 }
 
-main .carousel .inicio_sesion button:focus {
+body .main_index .carousel .inicio_sesion button:focus {
   background-color: #0b0a09;
 }
 
-main .main_conteiner {
+body .main_index .main_conteiner {
   width: 80%;
   margin: auto;
   margin-top: 1%;
@@ -235,7 +235,7 @@ main .main_conteiner {
           box-shadow: 0 0 10px 1px;
 }
 
-main .main_conteiner .mainSection {
+body .main_index .main_conteiner .mainSection {
   margin: auto;
   width: 100%;
   display: -webkit-box;
@@ -248,68 +248,67 @@ main .main_conteiner .mainSection {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 2%;
-  margin-top: 2%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-main .main_conteiner .mainSection h3 {
+body .main_index .main_conteiner .mainSection h3 {
   width: 100%;
   text-align: center;
   margin-bottom: 1%;
 }
 
-main .main_conteiner .mainSection h3 a {
+body .main_index .main_conteiner .mainSection h3 a {
   width: auto;
 }
 
-main .main_conteiner .mainSection a {
+body .main_index .main_conteiner .mainSection a {
   width: 100%;
   text-align: center;
   color: #0b0a09;
   text-decoration: none;
 }
 
-main .main_conteiner .mainSection a:hover {
+body .main_index .main_conteiner .mainSection a:hover {
   text-decoration: underline;
 }
 
-main .main_conteiner .mainSection a h3 {
+body .main_index .main_conteiner .mainSection a h3 {
   width: 100%;
 }
 
-main .main_conteiner .mainSection .card {
+body .main_index .main_conteiner .mainSection .card {
   margin-right: 3%;
   border-color: #0b0a09;
   width: 18rem;
 }
 
-main .main_conteiner .mainSection .card img {
+body .main_index .main_conteiner .mainSection .card img {
   height: 190px;
   cursor: pointer;
 }
 
-main .main_conteiner .mainSection .card .card-body h5 {
+body .main_index .main_conteiner .mainSection .card .card-body h5 {
   height: 6vh;
 }
 
-main .main_conteiner .mainSection .card .card-body .card-text {
+body .main_index .main_conteiner .mainSection .card .card-body .card-text {
   height: 7vh;
 }
 
-main .main_conteiner .mainSection .card .card-body .card-text p {
+body .main_index .main_conteiner .mainSection .card .card-body .card-text p {
   height: 100%;
 }
 
-main .main_conteiner .mainSection .card .card-body .btn {
+body .main_index .main_conteiner .mainSection .card .card-body .btn {
   margin: auto;
   background-color: #e65e5c;
   border-color: #0b0a09;
   text-align: center;
 }
 
-main .main_conteiner .mainSection .card .card-body .btn:hover {
+body .main_index .main_conteiner .mainSection .card .card-body .btn:hover {
   background-color: #0b0a09;
   color: #f1f3f2;
   -webkit-transition: 500ms;
@@ -317,18 +316,18 @@ main .main_conteiner .mainSection .card .card-body .btn:hover {
   text-decoration: none;
 }
 
-main .main_conteiner .mainSection:last-child .card img {
+body .main_index .main_conteiner .mainSection:last-child .card img {
   -o-object-fit: contain;
      object-fit: contain;
 }
 
-.main_crearCuenta {
+body .main_crearCuenta {
   margin-top: 0%;
   background-color: #f1f1f1;
   height: calc(100vh - 28vh);
 }
 
-.main_crearCuenta .nav_crearCuenta {
+body .main_crearCuenta .nav_crearCuenta {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -348,25 +347,25 @@ main .main_conteiner .mainSection:last-child .card img {
   color: #f1f3f2;
 }
 
-.main_crearCuenta .nav_crearCuenta i {
+body .main_crearCuenta .nav_crearCuenta i {
   margin-right: 5px;
   color: #f1f3f2;
 }
 
-.main_crearCuenta .nav_crearCuenta .registrate {
+body .main_crearCuenta .nav_crearCuenta .registrate {
   margin-left: 20px;
   padding: 3px;
 }
 
-.main_crearCuenta .nav_crearCuenta .registrate span {
+body .main_crearCuenta .nav_crearCuenta .registrate span {
   font-size: 1.5em;
 }
 
-.main_crearCuenta .nav_crearCuenta .registrate i {
+body .main_crearCuenta .nav_crearCuenta .registrate i {
   font-size: 30px;
 }
 
-.main_crearCuenta .nav_crearCuenta a {
+body .main_crearCuenta .nav_crearCuenta a {
   color: #f1f3f2;
   background-color: #e65e5c;
   text-decoration: none;
@@ -377,17 +376,18 @@ main .main_conteiner .mainSection:last-child .card img {
           box-shadow: 0 1px 15px 3px;
 }
 
-.main_crearCuenta .nav_crearCuenta a:hover {
+body .main_crearCuenta .nav_crearCuenta a:hover {
   background-color: #ff6b68;
 }
 
-.main_crearCuenta .conteiner_crearCuenta {
+body .main_crearCuenta .conteiner_crearCuenta {
   height: 90%;
   width: 70%;
   margin: auto;
+  margin-top: 1%;
 }
 
-.main_crearCuenta .conteiner_crearCuenta form {
+body .main_crearCuenta .conteiner_crearCuenta form {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   background-color: white;
@@ -408,11 +408,11 @@ main .main_conteiner .mainSection:last-child .card img {
           box-shadow: 1px 1px 10px 2px;
 }
 
-.main_crearCuenta .conteiner_crearCuenta form .conteiner_input {
+body .main_crearCuenta .conteiner_crearCuenta form .conteiner_input {
   width: 30%;
 }
 
-.main_crearCuenta .conteiner_crearCuenta form .conteiner_input input {
+body .main_crearCuenta .conteiner_crearCuenta form .conteiner_input input {
   width: 70%;
   margin-left: 2%;
   border: none;
@@ -420,11 +420,11 @@ main .main_conteiner .mainSection:last-child .card img {
   font-weight: bold;
 }
 
-.main_crearCuenta .conteiner_crearCuenta form .conteiner_input input:focus {
+body .main_crearCuenta .conteiner_crearCuenta form .conteiner_input input:focus {
   outline: none;
 }
 
-.main_crearCuenta .conteiner_crearCuenta form .conteiner_input_enviar {
+body .main_crearCuenta .conteiner_crearCuenta form .conteiner_input_enviar {
   height: 7vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -435,7 +435,7 @@ main .main_conteiner .mainSection:last-child .card img {
   width: 50%;
 }
 
-.main_crearCuenta .conteiner_crearCuenta form .conteiner_input_enviar #enviar {
+body .main_crearCuenta .conteiner_crearCuenta form .conteiner_input_enviar #enviar {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   width: 30%;
@@ -446,26 +446,26 @@ main .main_conteiner .mainSection:last-child .card img {
   border: 1px solid #0b0a09;
 }
 
-.main_crearCuenta .conteiner_crearCuenta form .conteiner_input_enviar #enviar:hover {
+body .main_crearCuenta .conteiner_crearCuenta form .conteiner_input_enviar #enviar:hover {
   background-color: #ff6b68;
 }
 
-.main_crearCuenta .conteiner_crearCuenta form .terminos_condiciones {
+body .main_crearCuenta .conteiner_crearCuenta form .terminos_condiciones {
   width: 95%;
 }
 
-.main_crearCuenta .conteiner_crearCuenta form .terminos_condiciones a {
+body .main_crearCuenta .conteiner_crearCuenta form .terminos_condiciones a {
   color: #e65e5c;
   text-transform: lowercase;
 }
 
-.main_crearCuenta .conteiner_crearCuenta form .terminos_condiciones label {
+body .main_crearCuenta .conteiner_crearCuenta form .terminos_condiciones label {
   width: auto;
   font-size: 11px;
   vertical-align: middle;
 }
 
-.main_crearCuenta .conteiner_crearCuenta form .terminos_condiciones input {
+body .main_crearCuenta .conteiner_crearCuenta form .terminos_condiciones input {
   margin: 0;
   vertical-align: middle;
   width: auto;
@@ -474,11 +474,11 @@ main .main_conteiner .mainSection:last-child .card img {
   margin-left: 5px;
 }
 
-.main_crearCuenta .conteiner_crearCuenta form .info {
+body .main_crearCuenta .conteiner_crearCuenta form .info {
   width: 95%;
 }
 
-.main_crearCuenta .conteiner_crearCuenta form .info p {
+body .main_crearCuenta .conteiner_crearCuenta form .info p {
   border-left: 2px solid #e65e5c;
   margin-top: 1%;
   padding-left: 2%;
@@ -487,7 +487,7 @@ main .main_conteiner .mainSection:last-child .card img {
   text-align: justify;
 }
 
-.main_crearCuenta .conteiner_crearCuenta .importante {
+body .main_crearCuenta .conteiner_crearCuenta .importante {
   background-color: #e65e5c;
   width: 70%;
   margin: auto;
@@ -496,12 +496,12 @@ main .main_conteiner .mainSection:last-child .card img {
           box-shadow: 0 2px 3px 1px;
 }
 
-.main_crearCuenta .conteiner_crearCuenta .importante span {
+body .main_crearCuenta .conteiner_crearCuenta .importante span {
   padding-left: 1%;
   color: #f1f3f2;
 }
 
-.footer_index {
+body .footer_index {
   background-color: #e65e5c;
   color: #0b0a09;
   border-top: 1px solid #0b0a09;
@@ -509,18 +509,18 @@ main .main_conteiner .mainSection:last-child .card img {
   font-family: 'popins';
 }
 
-.footer_index .footer_contenido img {
+body .footer_index .footer_contenido img {
   width: 5%;
 }
 
-.footer_index p {
+body .footer_index p {
   text-align: center;
   padding: 7px;
   height: 100%;
 }
 
-.footer_crearCuenta,
-.footer_login {
+body .footer_crearCuenta,
+body .footer_login {
   font-family: 'popins';
   background-color: #ff6b68;
   color: #0b0a09;
@@ -540,8 +540,8 @@ main .main_conteiner .mainSection:last-child .card img {
           align-items: center;
 }
 
-.footer_crearCuenta .footer_contenido,
-.footer_login .footer_contenido {
+body .footer_crearCuenta .footer_contenido,
+body .footer_login .footer_contenido {
   padding: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -555,33 +555,33 @@ main .main_conteiner .mainSection:last-child .card img {
   width: 100%;
 }
 
-.footer_crearCuenta .footer_contenido .footer_info li,
-.footer_login .footer_contenido .footer_info li {
+body .footer_crearCuenta .footer_contenido .footer_info li,
+body .footer_login .footer_contenido .footer_info li {
   list-style: none;
 }
 
-.footer_crearCuenta .footer_contenido img,
-.footer_login .footer_contenido img {
+body .footer_crearCuenta .footer_contenido img,
+body .footer_login .footer_contenido img {
   width: 6%;
 }
 
-.footer_crearCuenta p,
-.footer_login p {
+body .footer_crearCuenta p,
+body .footer_login p {
   text-align: center;
   padding: 7px;
   height: 100%;
 }
 
-.footer_crearCuenta .copyright,
-.footer_login .copyright {
+body .footer_crearCuenta .copyright,
+body .footer_login .copyright {
   background-color: #e65e5c;
   width: 100%;
   font-size: 11px;
   padding-top: 7px;
 }
 
-.footer_crearCuenta .copyright p,
-.footer_login .copyright p {
+body .footer_crearCuenta .copyright p,
+body .footer_login .copyright p {
   text-align: center;
 }
 
@@ -619,54 +619,25 @@ main .main_conteiner .mainSection:last-child .card img {
   header nav .nav_sections ul li a:hover {
     border: none;
   }
-  main {
-    height: calc(100vh -11vh);
+  body {
+    height: 100vh;
   }
-  main .carousel .d-block {
-    height: 280px;
+  body .main_index {
+    height: calc(200vh - 16vh);
   }
-  main .main_conteiner .mainSection {
-    width: 100%;
-    margin: auto;
+  body .main_index .carousel .d-block {
+    height: 325px;
   }
-  main .main_conteiner .mainSection .card {
-    margin-bottom: 1%;
-    height: 25vh;
-    width: 180px;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  main .main_conteiner .mainSection .card img {
-    height: 50%;
-  }
-  main .main_conteiner .mainSection .card .card-body {
-    padding: 0;
-    text-align: center;
-  }
-  main .main_conteiner .mainSection .card .card-body h5 {
-    height: 4vh;
-    font-size: 15px;
-  }
-  main .main_conteiner .mainSection .card .card-body .card-text {
-    height: 4vh;
-    margin-bottom: 5px;
-    font-size: 12px;
-  }
-  main .main_conteiner .mainSection .card .card-body .btn {
-    padding: 2px;
-    margin-top: 5px;
-    width: 50%;
-  }
-  main .carousel .inicio_sesion {
-    width: 70%;
+  body .main_index .carousel .inicio_sesion {
+    width: 40%;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-  main .carousel .inicio_sesion i {
+  body .main_index .carousel .inicio_sesion i {
     font-size: 50px;
   }
-  main .carousel .inicio_sesion form {
+  body .main_index .carousel .inicio_sesion form {
     margin: auto;
     width: 50%;
     height: auto;
@@ -677,40 +648,83 @@ main .main_conteiner .mainSection:last-child .card img {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  main .carousel .inicio_sesion form .btn_iniciar_sesion {
+  body .main_index .carousel .inicio_sesion form .btn_iniciar_sesion {
     width: 70%;
   }
-  .footer_index {
-    height: 3vh;
+  body .main_index .main_conteiner .mainSection {
+    width: 100%;
+    margin: auto;
   }
-  .main_crearCuenta {
+  body .main_index .main_conteiner .mainSection .card {
+    margin-bottom: 1%;
+    height: 40vh;
+    width: 180px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  body .main_index .main_conteiner .mainSection .card img {
+    height: 50%;
+  }
+  body .main_index .main_conteiner .mainSection .card .card-body {
+    padding: 0;
+    text-align: center;
+  }
+  body .main_index .main_conteiner .mainSection .card .card-body h5 {
+    height: 4vh;
+    font-size: 15px;
+  }
+  body .main_index .main_conteiner .mainSection .card .card-body .card-text {
+    height: auto;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  body .main_index .main_conteiner .mainSection .card .card-body .btn {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    left: 0;
+    padding: 2px;
+    margin-top: 5px;
+    width: 50%;
+  }
+  body .footer_index {
+    height: 4vh;
+  }
+  body body {
+    height: 100vh;
+  }
+  body body .main_crearCuenta {
     height: calc(100vh - 23vh);
   }
-  .main_crearCuenta .nav_crearCuenta a {
+  body body .main_crearCuenta .nav_crearCuenta a {
     width: 10%;
   }
-  .main_crearCuenta .conteiner_crearCuenta form {
-    margin-bottom: 0;
+  body body .main_crearCuenta .conteiner_crearCuenta form {
+    height: 60%;
+    margin-top: 50px;
     width: 100%;
   }
-  .main_crearCuenta .conteiner_crearCuenta .importante {
+  body body .main_crearCuenta .conteiner_crearCuenta .importante {
     margin-top: 3%;
   }
-  .footer_crearCuenta {
+  body body .footer_crearCuenta {
     height: 15vh;
   }
-  .footer_crearCuenta .footer_contenido .footer_info {
+  body body .footer_crearCuenta .footer_contenido .footer_info {
     font-size: 1.3em;
   }
-  .footer_crearCuenta .footer_contenido .footer_info ul {
+  body body .footer_crearCuenta .footer_contenido .footer_info ul {
     padding: 0;
   }
-  .footer_crearCuenta .footer_contenido img {
+  body body .footer_crearCuenta .footer_contenido img {
     width: 13%;
   }
 }
 
 @media (max-width: 1024px) {
+  header {
+    height: 8vh;
+  }
   header nav {
     height: 100%;
   }
@@ -740,54 +754,57 @@ main .main_conteiner .mainSection:last-child .card img {
   header nav .nav_sections ul li a:hover {
     border: none;
   }
-  main {
+  body {
+    height: 100vh;
+  }
+  body .main_index {
     height: calc(100vh -11vh);
   }
-  main .carousel .d-block {
+  body .main_index .carousel .d-block {
     height: 300px;
   }
-  main .main_conteiner .mainSection {
+  body .main_index .main_conteiner .mainSection {
     width: 100%;
     margin: auto;
   }
-  main .main_conteiner .mainSection .card {
+  body .main_index .main_conteiner .mainSection .card {
     margin-bottom: 1%;
     height: 25vh;
     width: 180px;
     margin-left: 5px;
     margin-right: 5px;
   }
-  main .main_conteiner .mainSection .card img {
+  body .main_index .main_conteiner .mainSection .card img {
     height: 50%;
   }
-  main .main_conteiner .mainSection .card .card-body {
+  body .main_index .main_conteiner .mainSection .card .card-body {
     padding: 0;
     text-align: center;
   }
-  main .main_conteiner .mainSection .card .card-body h5 {
+  body .main_index .main_conteiner .mainSection .card .card-body h5 {
     height: 4vh;
     font-size: 15px;
   }
-  main .main_conteiner .mainSection .card .card-body .card-text {
+  body .main_index .main_conteiner .mainSection .card .card-body .card-text {
     height: 4vh;
     margin-bottom: 5px;
     font-size: 12px;
   }
-  main .main_conteiner .mainSection .card .card-body .btn {
+  body .main_index .main_conteiner .mainSection .card .card-body .btn {
     padding: 2px;
     margin-top: 5px;
     width: 50%;
   }
-  main .carousel .inicio_sesion {
+  body .main_index .carousel .inicio_sesion {
     width: 70%;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-  main .carousel .inicio_sesion i {
+  body .main_index .carousel .inicio_sesion i {
     font-size: 50px;
   }
-  main .carousel .inicio_sesion form {
+  body .main_index .carousel .inicio_sesion form {
     margin: auto;
     width: 50%;
     height: auto;
@@ -798,7 +815,7 @@ main .main_conteiner .mainSection:last-child .card img {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  main .carousel .inicio_sesion form .btn_iniciar_sesion {
+  body .main_index .carousel .inicio_sesion form .btn_iniciar_sesion {
     width: 70%;
   }
   .footer_index {
