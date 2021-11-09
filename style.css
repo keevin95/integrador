@@ -690,34 +690,31 @@ body .footer_login .copyright p {
   body .footer_index {
     height: 4vh;
   }
-  body body {
-    height: 100vh;
-  }
-  body body .main_crearCuenta {
+  body .main_crearCuenta {
     height: calc(100vh - 23vh);
   }
-  body body .main_crearCuenta .nav_crearCuenta a {
-    width: 10%;
+  body .main_crearCuenta .conteiner_crearCuenta {
+    margin-top: 22px;
   }
-  body body .main_crearCuenta .conteiner_crearCuenta form {
+  body .main_crearCuenta .conteiner_crearCuenta form {
     height: 60%;
-    margin-top: 50px;
-    width: 100%;
+    width: 80%;
   }
-  body body .main_crearCuenta .conteiner_crearCuenta .importante {
+  body .main_crearCuenta .conteiner_crearCuenta .importante {
     margin-top: 3%;
   }
-  body body .footer_crearCuenta {
-    height: 15vh;
+  body .footer_crearCuenta {
+    height: 20vh;
+    background-color: #e65e5c;
   }
-  body body .footer_crearCuenta .footer_contenido .footer_info {
+  body .footer_crearCuenta .footer_contenido .footer_info {
     font-size: 1.3em;
   }
-  body body .footer_crearCuenta .footer_contenido .footer_info ul {
+  body .footer_crearCuenta .footer_contenido .footer_info ul {
     padding: 0;
   }
-  body body .footer_crearCuenta .footer_contenido img {
-    width: 13%;
+  body .footer_crearCuenta .footer_contenido img {
+    width: 10%;
   }
 }
 

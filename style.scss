@@ -546,38 +546,33 @@ body {
         .footer_index {
             height: 4vh;
         }
-        body {
-            height: 100vh;
-            .main_crearCuenta {
-                height: calc(100vh - 23vh);
-                .nav_crearCuenta {
-                    a {
-                        width: 10%;
-                    }
+    }
+    body {
+        .main_crearCuenta {
+            height: calc(100vh - 23vh);
+            .conteiner_crearCuenta {
+                margin-top: 22px;
+                form {
+                    height: 60%;
+                    width: 80%;
                 }
-                .conteiner_crearCuenta {
-                    form {
-                        height: 60%;
-                        margin-top: 50px;
-                        width: 100%;
-                    }
-                    .importante {
-                        margin-top: 3%;
-                    }
+                .importante {
+                    margin-top: 3%;
                 }
             }
-            .footer_crearCuenta {
-                height: 15vh;
-                .footer_contenido {
-                    .footer_info {
-                        font-size: 1.3em;
-                        ul {
-                            padding: 0;
-                        }
+        }
+        .footer_crearCuenta {
+            height: 20vh;
+            background-color: $anaranjado;
+            .footer_contenido {
+                .footer_info {
+                    font-size: 1.3em;
+                    ul {
+                        padding: 0;
                     }
-                    img {
-                        width: 13%;
-                    }
+                }
+                img {
+                    width: 10%;
                 }
             }
         }
